@@ -12,11 +12,18 @@ const PlaceDetail: FC = () => {
   const name = detail.properties.name;
   const address = detail.properties.address.address_formatted;
   const email = detail.properties.email[0];
-  const tel = detail.properties.telephone[0];
+  // zkrácení příliš dlouhého emailu
+  const emailHeader =
+    email && email.length > 30 ? email.substring(0, 27) + '...' : email;
+  let tel = detail.properties.telephone[0];
+  // kontrola a úprava tel čísla
+  tel = tel && tel.substring(0, 4) === '+420' ? tel.slice(4) : tel;
   const type = detail.properties.type.description;
-  const web = detail.properties.web[0];
+  let web = detail.properties.web[0];
+  // kontrola emailu
+  web = web && web.substring(0, 7) !== 'http://' ? 'https://' + web : web;
   const openingHours = detail.properties.opening_hours;
-  const schedule = openingHours.map((day) => {
+  const timeTable = openingHours.map((day) => {
     return (
       <div className={styles.day} key={day.day_of_week}>
         <div className={styles['day-name']}>{day.day_of_week}</div>
@@ -41,22 +48,17 @@ const PlaceDetail: FC = () => {
         </a>
       </div>
       <div className={styles.link}>
-        <a href={`mailto:${email}`}>
-          {/*zkrácená verze emailu*/}
-          {email && email.length > 30
-            ? email.substring(0, 27) + '...'
-            : email}{' '}
-        </a>
+        <a href={`mailto:${email}`}>{emailHeader}</a>
       </div>
       {tel && (
         <div className={styles.link}>
           <a href={`tel:+420 ${tel}`}>+420 {tel}</a>
         </div>
       )}
-      {schedule.length > 0 && (
+      {timeTable.length > 0 && (
         <div className={styles['opening-days-hours']}>
           <h4>{lang === 'en' ? 'Opening hours' : 'Otevírací doba'}</h4>
-          {schedule}
+          {timeTable}
         </div>
       )}
     </div>
