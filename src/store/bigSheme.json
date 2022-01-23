@@ -1,0 +1,1581 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4466544,
+                    50.1023591
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Tovární 1342/12, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Tovární 1342/12"
+                },
+                "email": [
+                    "holesovickalekarna@volny.cz"
+                ],
+                "id": "07995020000-holesovicka-lekarna",
+                "institution_code": "07995020000",
+                "name": "Holešovická lékárna",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "16:00",
+                        "day_of_week": "Friday",
+                        "opens": "07:30"
+                    }
+                ],
+                "pharmacy_code": "07995180",
+                "telephone": [
+                    "266 710 025"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.212Z",
+                "web": [
+                    "http://www.holesovickalekarna.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4568797204016,
+                    50.1028618
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Jankovcova 1569/2c, 170 00 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "170 00",
+                    "street_address": "Jankovcova 1569/2c"
+                },
+                "email": [
+                    "lekarna@iscare.cz"
+                ],
+                "id": "07995021000-lekarna-lighthouse",
+                "institution_code": "07995021000",
+                "name": "Lékárna - Lighthouse",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995190",
+                "telephone": [
+                    "234 770 231"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2019-12-01T01:25:01.131Z",
+                "web": [
+                    "http://www.iscare.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4239233,
+                    50.0998993
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Milady Horákové 1071/71, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Milady Horákové 1071/71"
+                },
+                "email": [
+                    "letna@neopharm.cz"
+                ],
+                "id": "07995043000-lekarna-neopharm-letna",
+                "institution_code": "07995043000",
+                "name": "Lékárna Neopharm Letná",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Friday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "13:00",
+                        "day_of_week": "Saturday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995460",
+                "telephone": [
+                    "736 500 457"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.214Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4323333,
+                    50.1033296
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Dukelských hrdinù 567/52, 170 00 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "170 00",
+                    "street_address": "Dukelských hrdinù 567/52"
+                },
+                "email": [
+                    "lekarna@ukralovskeobory.cz"
+                ],
+                "id": "07995009000-u-kralovske-obory",
+                "institution_code": "07995009000",
+                "name": "U Královské obory",
+                "opening_hours": [
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995130",
+                "telephone": [
+                    "220 801 907",
+                    " 724 192 011"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2019-10-08T07:19:20.735Z",
+                "web": [
+                    "http://www.ukralovskeobory.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.417597983843,
+                    50.100866238336
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Jana Zajíce 926/12, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Jana Zajíce 926/12"
+                },
+                "email": [],
+                "id": "105437-ortotechnika,-as",
+                "institution_code": "105437",
+                "name": "Ortotechnika, a.s.",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [],
+                "type": {
+                    "description": "Výdejna zdravotnických prostøedkù",
+                    "group": "health_care",
+                    "id": "ZS-VZP"
+                },
+                "updated_at": "2022-01-01T01:25:07.158Z",
+                "web": [
+                    "protetika.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.456895794284,
+                    50.102868035648
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Jankovcova 1569/2c, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Jankovcova 1569/2c"
+                },
+                "email": [],
+                "id": "53944-pharmaceutical-research-associates-cz,-sro",
+                "institution_code": "53944",
+                "name": "Pharmaceutical Research Associates CZ, s.r.o.",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [],
+                "type": {
+                    "description": "Ostatní zdravotnická zaøízení",
+                    "group": "health_care",
+                    "id": "ZS-OZZ"
+                },
+                "updated_at": "2022-01-01T01:25:07.159Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4330619,
+                    50.0990381
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Dukelských hrdinù 691/33, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Dukelských hrdinù 691/33"
+                },
+                "email": [
+                    "praha.dukelskychhrdinu@drmax.cz"
+                ],
+                "id": "00200005978-drmax-lekarna",
+                "institution_code": "00200005978",
+                "name": "Dr.Max LÉKÁRNA",
+                "opening_hours": [
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995510",
+                "telephone": [
+                    "233 310 698"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.211Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4323333,
+                    50.1033296
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Dukelských hrdinù 567/52, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Dukelských hrdinù 567/52"
+                },
+                "email": [
+                    "lekarna@ukralovskeobory.cz"
+                ],
+                "id": "00200094831-lekarna-u-kralovske-obory",
+                "institution_code": "00200094831",
+                "name": "Lékárna U Královské obory",
+                "opening_hours": [
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995520",
+                "telephone": [
+                    "220 801 907",
+                    " 724 192 011"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.215Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4502093,
+                    50.1024675
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Komunardù 442/16, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Komunardù 442/16"
+                },
+                "email": [
+                    "pilulka.komunardu@gmail.com"
+                ],
+                "id": "07995040000-pilulka-lekarna",
+                "institution_code": "07995040000",
+                "name": "Pilulka Lékárna",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Friday",
+                        "opens": "07:30"
+                    }
+                ],
+                "pharmacy_code": "07995430",
+                "telephone": [
+                    "732 776 480"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.216Z",
+                "web": [
+                    "http://www.pilulka-lekarny.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.429552539611,
+                    50.09861999971
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Letohradská 369/3, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Letohradská 369/3"
+                },
+                "email": [
+                    "info@dompece.cz"
+                ],
+                "id": "70079-specialni-domaci-pece,-sro,-vydejna-pzt",
+                "institution_code": "70079",
+                "name": "SPECIÁLNÍ DOMÁCÍ PÉÈE, s.r.o., výdejna PZT",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [
+                    "257325606"
+                ],
+                "type": {
+                    "description": "Výdejna zdravotnických prostøedkù",
+                    "group": "health_care",
+                    "id": "ZS-VZP"
+                },
+                "updated_at": "2019-12-01T01:25:05.461Z",
+                "web": [
+                    "www.dompece.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.419967830819,
+                    50.099740619318
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Milady Horákové 854/78, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Milady Horákové 854/78"
+                },
+                "email": [],
+                "id": "41481-zdravotnicka-prodejna-na-letne,-vos",
+                "institution_code": "41481",
+                "name": "Zdravotnická prodejna \"Na Letné\", v.o.s.",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [],
+                "type": {
+                    "description": "Výdejna zdravotnických prostøedkù",
+                    "group": "health_care",
+                    "id": "ZS-VZP"
+                },
+                "updated_at": "2022-01-01T01:25:07.160Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.427893914138,
+                    50.09906902554
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Kamenická 605/18, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Kamenická 605/18"
+                },
+                "email": [
+                    "zdravpro@volny.cz"
+                ],
+                "id": "46301-zdravpro-sro",
+                "institution_code": "46301",
+                "name": "Zdravpro s.r.o.",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [
+                    "+420222313589"
+                ],
+                "type": {
+                    "description": "Výdejna zdravotnických prostøedkù",
+                    "group": "health_care",
+                    "id": "ZS-VZP"
+                },
+                "updated_at": "2022-01-01T01:25:07.159Z",
+                "web": [
+                    "http://www.zdravpro.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4493145,
+                    50.101381
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Tusarova 1152/36, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Tusarova 1152/36"
+                },
+                "email": [
+                    "vitapharma@vitapharma.cz"
+                ],
+                "id": "07995031000-lekarna-vitapharma",
+                "institution_code": "07995031000",
+                "name": "LÉKÁRNA VITAPHARMA",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Friday",
+                        "opens": "07:30"
+                    }
+                ],
+                "pharmacy_code": "07995200",
+                "telephone": [
+                    "283 022 112"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.215Z",
+                "web": [
+                    "https://www.vitapharma.cz/"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4466502,
+                    50.1044864
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Osadní 774/35, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Osadní 774/35"
+                },
+                "email": [
+                    "osadni@ipcnet.cz"
+                ],
+                "id": "07995023000-lekarna-osadni",
+                "institution_code": "07995023000",
+                "name": "Lékárna Osadní",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995120",
+                "telephone": [
+                    "220 563 078"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.214Z",
+                "web": [
+                    "http://www.lekarny-ipc.cz/"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4501076,
+                    50.1048724
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Komunardù 1467/40, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Komunardù 1467/40"
+                },
+                "email": [
+                    "komunardu@neopharm.cz"
+                ],
+                "id": "07995044000-lekarna-neopharm-komunardu",
+                "institution_code": "07995044000",
+                "name": "Lékárna Neopharm Komunardù",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Friday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "13:00",
+                        "day_of_week": "Saturday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995470",
+                "telephone": [
+                    "736 500 456"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.213Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4425933,
+                    50.1076588
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Plynární 1617/10, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Plynární 1617/10"
+                },
+                "email": [
+                    "pharmacentrum.holesovice@mediconpharm.cz"
+                ],
+                "id": "07995046000-pharmacentrum-holesovice",
+                "institution_code": "07995046000",
+                "name": "Pharmacentrum Holešovice",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995500",
+                "telephone": [
+                    "227777699",
+                    " 734760473"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.216Z",
+                "web": [
+                    "www.pharmacentrum.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.417597983843,
+                    50.100866238336
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Jana Zajíce 926/12, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Jana Zajíce 926/12"
+                },
+                "email": [
+                    "protetika@protetika.cz"
+                ],
+                "id": "117532-ortopedicke-pomucky-sro",
+                "institution_code": "117532",
+                "name": "Ortopedické pomùcky s.r.o.",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [
+                    "+420221573556"
+                ],
+                "type": {
+                    "description": "Výdejna zdravotnických prostøedkù",
+                    "group": "health_care",
+                    "id": "ZS-VZP"
+                },
+                "updated_at": "2022-01-01T01:25:07.158Z",
+                "web": [
+                    "http://protetika.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4330085,
+                    50.0981889
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Dukelských hrdinù 406/23, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Dukelských hrdinù 406/23"
+                },
+                "email": [
+                    "praha11@drmax.cz"
+                ],
+                "id": "07995032000-drmax-lekarna",
+                "institution_code": "07995032000",
+                "name": "Dr.Max LÉKÁRNA",
+                "opening_hours": [
+                    {
+                        "closes": "18:30",
+                        "day_of_week": "Monday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:30",
+                        "day_of_week": "Tuesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:30",
+                        "day_of_week": "Wednesday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:30",
+                        "day_of_week": "Thursday",
+                        "opens": "07:30"
+                    },
+                    {
+                        "closes": "18:30",
+                        "day_of_week": "Friday",
+                        "opens": "07:30"
+                    }
+                ],
+                "pharmacy_code": "07995170",
+                "telephone": [
+                    "233 380 710"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.210Z",
+                "web": [
+                    "http://www.drmax.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4538766,
+                    50.10301
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Dìlnická 54, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Dìlnická 54"
+                },
+                "email": [
+                    "lekarna.namaninach@gmail.com"
+                ],
+                "id": "07995045000-lekarna-na-maninach",
+                "institution_code": "07995045000",
+                "name": "Lékárna Na Maninách",
+                "opening_hours": [
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995480",
+                "telephone": [
+                    "220 800 261"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2020-07-01T00:25:15.570Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4256027,
+                    50.101019
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Malíøská 386/1, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Malíøská 386/1"
+                },
+                "email": [
+                    "lekarna.veletrzni@volny.cz"
+                ],
+                "id": "07995019000-lekarna-veletrzni",
+                "institution_code": "07995019000",
+                "name": "Lékárna Veletržní",
+                "opening_hours": [
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995010",
+                "telephone": [
+                    "233 371 806"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.215Z",
+                "web": [
+                    "http://www.lekarna-veletrzni.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4331453,
+                    50.1037553
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Janovského 993/48, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Janovského 993/48"
+                },
+                "email": [
+                    "lekarna@ld.cz"
+                ],
+                "id": "07995022000-lekarna-lekarsky-dum",
+                "institution_code": "07995022000",
+                "name": "Lékárna Lékaøský dùm",
+                "opening_hours": [
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "17:00",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995100",
+                "telephone": [
+                    "242 426 413"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.213Z",
+                "web": [
+                    "http://www.ld.cz/lekarna/"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.447926991871,
+                    50.101344108587
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Tusarova 1520/24, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Tusarova 1520/24"
+                },
+                "email": [
+                    "tusarova@protetika.cz"
+                ],
+                "id": "136234-jan-nemec,-vydejna-zdravotnickych-prostredku-ortopedicke-pomucky",
+                "institution_code": "136234",
+                "name": "Jan Nìmec, Výdejna zdravotnických prostøedkù - ortopedické pomùcky",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [
+                    "+420220806861"
+                ],
+                "type": {
+                    "description": "Výdejna zdravotnických prostøedkù",
+                    "group": "health_care",
+                    "id": "ZS-VZP"
+                },
+                "updated_at": "2022-01-01T01:25:07.158Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4301342,
+                    50.101801
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Veletržní 1623/24, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Veletržní 1623/24"
+                },
+                "email": [
+                    "stromovka@kpharma.cz"
+                ],
+                "id": "00200271230-lekarna-cithara",
+                "institution_code": "00200271230",
+                "name": "Lékárna Cithara",
+                "opening_hours": [
+                    {
+                        "closes": "21:00",
+                        "day_of_week": "Monday",
+                        "opens": "09:00"
+                    },
+                    {
+                        "closes": "21:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "09:00"
+                    },
+                    {
+                        "closes": "21:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "09:00"
+                    },
+                    {
+                        "closes": "21:00",
+                        "day_of_week": "Thursday",
+                        "opens": "09:00"
+                    },
+                    {
+                        "closes": "21:00",
+                        "day_of_week": "Friday",
+                        "opens": "09:00"
+                    },
+                    {
+                        "closes": "21:00",
+                        "day_of_week": "Saturday",
+                        "opens": "09:00"
+                    },
+                    {
+                        "closes": "21:00",
+                        "day_of_week": "Sunday",
+                        "opens": "09:00"
+                    },
+                    {
+                        "closes": "21:00",
+                        "day_of_week": "PublicHolidays",
+                        "opens": "09:00"
+                    }
+                ],
+                "pharmacy_code": "07995530",
+                "telephone": [
+                    "222 262 194"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.212Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.429552539611,
+                    50.09861999971
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Letohradská 369/3, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Letohradská 369/3"
+                },
+                "email": [],
+                "id": "138478-specialni-domaci-pece,-sro,-vydejna-pzt",
+                "institution_code": "138478",
+                "name": "SPECIÁLNÍ DOMÁCÍ PÉÈE, s.r.o., výdejna PZT",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [],
+                "type": {
+                    "description": "Výdejna zdravotnických prostøedkù",
+                    "group": "health_care",
+                    "id": "ZS-VZP"
+                },
+                "updated_at": "2022-01-01T01:25:07.158Z",
+                "web": [
+                    "www.dompece.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.4310171,
+                    50.0972883
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Františka Køížka 683/22, 17000 Praha, Èesko",
+                    "address_locality": "Praha",
+                    "postal_code": "17000",
+                    "street_address": "Františka Køížka 683/22"
+                },
+                "email": [
+                    "praha.frkrizka@benu.cz"
+                ],
+                "id": "07995024001-benu-lekarna",
+                "institution_code": "07995024001",
+                "name": "BENU Lékárna",
+                "opening_hours": [
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Monday",
+                        "opens": "06:30"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Tuesday",
+                        "opens": "06:30"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Wednesday",
+                        "opens": "06:30"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Thursday",
+                        "opens": "06:30"
+                    },
+                    {
+                        "closes": "19:00",
+                        "day_of_week": "Friday",
+                        "opens": "06:30"
+                    },
+                    {
+                        "closes": "18:00",
+                        "day_of_week": "Saturday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "23:59",
+                        "day_of_week": "Sunday",
+                        "opens": "00:00"
+                    },
+                    {
+                        "closes": "23:59",
+                        "day_of_week": "PublicHolidays",
+                        "opens": "00:00"
+                    }
+                ],
+                "pharmacy_code": "07995490",
+                "telephone": [
+                    "731 638 010"
+                ],
+                "type": {
+                    "description": "Lékárna",
+                    "group": "pharmacies",
+                    "id": "Z"
+                },
+                "updated_at": "2021-06-01T00:25:02.210Z",
+                "web": [
+                    "http://www.benu.cz"
+                ],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.456879720401648,
+                    50.1028618
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Jankovcova 1569/2c, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Jankovcova 1569/2c"
+                },
+                "email": [
+                    "praha@mapolekarna.cz"
+                ],
+                "id": "00201227657-mapo-lekarna",
+                "institution_code": "00201227657",
+                "name": "MAPO lékárna",
+                "opening_hours": [
+                    {
+                        "closes": "16:30",
+                        "day_of_week": "Monday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "16:30",
+                        "day_of_week": "Tuesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "16:30",
+                        "day_of_week": "Wednesday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "16:30",
+                        "day_of_week": "Thursday",
+                        "opens": "08:00"
+                    },
+                    {
+                        "closes": "16:30",
+                        "day_of_week": "Friday",
+                        "opens": "08:00"
+                    }
+                ],
+                "pharmacy_code": "07995540",
+                "telephone": [
+                    "226 201545"
+                ],
+                "type": {
+                    "description": "Lékárna zásobujicí zaøízení ústavní péèe",
+                    "group": "pharmacies",
+                    "id": "L"
+                },
+                "updated_at": "2021-06-01T00:25:02.215Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    14.447926991871,
+                    50.101344108587
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "address": {
+                    "address_country": "Èesko",
+                    "address_formatted": "Tusarova 1520/24, 17000 Praha 7, Èesko",
+                    "address_locality": "Praha 7",
+                    "postal_code": "17000",
+                    "street_address": "Tusarova 1520/24"
+                },
+                "email": [
+                    "alexandra.kadlecova@medista.cz"
+                ],
+                "id": "160898-medista-spol-s-ro",
+                "institution_code": "160898",
+                "name": "MEDISTA spol. s r.o.",
+                "opening_hours": [],
+                "pharmacy_code": null,
+                "telephone": [],
+                "type": {
+                    "description": "Výdejna zdravotnických prostøedkù",
+                    "group": "health_care",
+                    "id": "ZS-VZP"
+                },
+                "updated_at": "2022-01-01T01:25:07.157Z",
+                "web": [],
+                "district": "praha-7"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

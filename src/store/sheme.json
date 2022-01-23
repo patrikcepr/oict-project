@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.4633, 50.07827]
+      },
+      "properties": {
+        "address": {
+          "address_formatted": "Dělnická 213/10, 17000 Praha-Holešovice, Česko",
+          "street_address": "Dělnická 213/10",
+          "postal_code": "17000",
+          "address_locality": "Praha",
+          "address_region": "Holešovice",
+          "address_country": "Česko"
+        },
+        "district": "praha-4",
+        "email": [],
+        "id": "04995142000-benu-lekarna",
+        "institution_code": "04995142000",
+        "name": "BENU Lékárna",
+        "opening_hours": [
+          {
+            "closes": "12:00",
+            "day_of_week": "Monday",
+            "description": "",
+            "is_default": false,
+            "opens": "08:00",
+            "valid_from": "2020-06-30T22:00:00.000Z",
+            "valid_through": "2020-08-30T22:00:00.000Z"
+          }
+        ],
+        "pharmacy_code": "04996100",
+        "telephone": [],
+        "updated_at": "2019-05-18T07:38:37.000Z",
+        "type": {
+          "description": "Lékárna",
+          "group": "pharmacies",
+          "id": "Z"
+        },
+        "web": []
+      },
+      "type": "Feature"
+    }
+  ]
+}

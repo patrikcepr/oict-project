@@ -1,0 +1,67 @@
+{
+  "geometry": {
+    "coordinates": [14.3968975, 50.100262],
+    "type": "Point"
+  },
+  "properties": {
+    "address": {
+      "address_country": "Česko",
+      "address_formatted": "Vítězné náměstí 997/13, 16000 Praha, Česko",
+      "address_locality": "Praha",
+      "postal_code": "16000",
+      "street_address": "Vítězné náměstí 997/13"
+    },
+    "email": ["praha.viteznenam@drmax.cz"],
+    "id": "06995068000-drmax-lekarna",
+    "institution_code": "06995068000",
+    "name": "Dr.Max LÉKÁRNA",
+    "opening_hours": [
+      {
+        "closes": "20:00",
+        "day_of_week": "Monday",
+        "opens": "08:00"
+      },
+      {
+        "closes": "20:00",
+        "day_of_week": "Tuesday",
+        "opens": "08:00"
+      },
+      {
+        "closes": "20:00",
+        "day_of_week": "Wednesday",
+        "opens": "08:00"
+      },
+      {
+        "closes": "20:00",
+        "day_of_week": "Thursday",
+        "opens": "08:00"
+      },
+      {
+        "closes": "20:00",
+        "day_of_week": "Friday",
+        "opens": "08:00"
+      },
+      {
+        "closes": "20:00",
+        "day_of_week": "Saturday",
+        "opens": "08:00"
+      },
+      {
+        "closes": "20:00",
+        "day_of_week": "Sunday",
+        "opens": "08:00"
+      }
+    ],
+    "pharmacy_code": "06995540",
+    "telephone": ["224 325 520"],
+    "type": {
+      "description": "Lékárna",
+      "group": "pharmacies",
+      "id": "Z"
+    },
+    "updated_at": "2021-06-01T00:25:02.211Z",
+    "web": ["http//:www.drmax.cz"],
+    "district": "praha-6"
+  },
+  "type": "Feature"
+}

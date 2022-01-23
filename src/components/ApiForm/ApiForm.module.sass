@@ -1,0 +1,57 @@
+@import '../../styles/_colors.sass'
+@import '../../styles/shared.sass'
+
+.apiform
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  gap: .5rem
+  margin: 1rem
+  @media(min-width: $layout-breakpoint-extra-small)
+    flex-direction: row
+
+  .button
+    background-color: $primary-color-light
+    border: none
+    border-top: 1px solid $grey
+    border-right: 1px solid $grey
+    font: inherit
+    cursor: pointer
+    color: $text-color
+    padding: 0.25rem 2rem
+    min-height: 37px
+    transition: $transition
+    &:hover,
+    &:active 
+      background-color: $primary-color-dark
+      border-color: $primary-color-light
+
+.input 
+  display: flex 
+  justify-content: space-between
+  align-items: center 
+
+  label 
+    font-weight: bold
+    padding: .5rem .5rem
+    min-width: 60px
+    @media(min-width: $layout-breakpoint-xxsmall)
+      padding: .5rem 1rem .5rem .5rem
+
+  input 
+    max-width: 100%
+    width: 75%
+    height: 37px
+    padding-left: .5rem
+    padding-right: .5rem
+    background-color: $primary-color-light
+    border: none
+    border-bottom: 1px solid $grey
+    @media(min-width: $layout-breakpoint-small)
+      width: 20rem
+    @media(min-width: $layout-breakpoint-mid)
+      max-width: 30rem
+    &:focus
+      outline: 2px dotted rgba(255, 255, 255, .8)
+      border-right: 1px solid $grey
+      border-bottom: 1px solid $grey

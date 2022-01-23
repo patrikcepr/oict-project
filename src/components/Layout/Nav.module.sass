@@ -1,0 +1,12 @@
+@import '../../styles/_colors.sass'
+@import '../../styles/shared.sass'
+
+.nav
+  width: 100%
+  display: flex
+  justify-content: space-between
+  flex-direction: column-reverse
+  background-color: $primary-color
+  @media(min-width: $layout-breakpoint-extra-small)
+    align-items: center
+    flex-direction: row

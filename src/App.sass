@@ -1,0 +1,22 @@
+@import "styles/shared.sass"
+@import 'styles/_colors.sass'
+  
+.App 
+  color: $text-color
+
+.error
+  width: 100%
+  height: 300px
+  display: flex
+  flex-direction: column
+  align-items: center
+  font-weight: bold
+  font-size: 1.2rem
+  @media(min-width: $layout-breakpoint-extra-small)
+    font-size: 1.5rem
+  @media(min-width: $layout-breakpoint-small)
+    font-size: 1.8rem
+  span
+    margin-top: 100px
+    width: 75%
+    text-align: center

@@ -1,0 +1,18 @@
+@import '../../styles/_colors.sass'
+@import '../../styles/shared.sass'
+
+.places
+  display: flex
+  flex-direction: column
+  gap: 1rem
+  // background-color: $grey
+  padding: 1rem 1rem 7rem
+  @media (min-width: $layout-breakpoint-extra-small)
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-around
+    padding: 1rem 1rem 7rem
+    margin: 0 auto
+    // width: 95%
+  @media (min-width: $layout-breakpoint-small)
+    width: 80%
