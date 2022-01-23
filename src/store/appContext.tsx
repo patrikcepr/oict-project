@@ -42,7 +42,6 @@ interface IAppCtx {
   showModal: (index: number) => void;
   setApikey: (apikey: string) => void;
   apikey: string;
-  // district: string;
 }
 
 const AppContext = createContext<IAppCtx>({
@@ -57,7 +56,6 @@ const AppContext = createContext<IAppCtx>({
   showModal: (index: number) => {},
   setApikey: (apikey: string) => {},
   apikey: '',
-  // district: '',
 });
 
 const mockUrl =
@@ -70,20 +68,20 @@ const publicToken =
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhY2thdGhvbkBnb2xlbWlvLmN6IiwiaWQiOjIsIm5hbWUiOiJIYWNrYXRob24iLCJzdXJuYW1lIjoiR29sZW1pbyIsImlhdCI6MTU4NDU0NDYzMSwiZXhwIjoxMTU4NDU0NDYzMSwiaXNzIjoiZ29sZW1pbyIsImp0aSI6IjVlNjU2NDQxLTA4OGUtNDYyYS1iMjUyLTFiNzI1OGU0ZGJkYSJ9.ypDAJirgEs8VBSauraFEoLTTtC6y_F8V1fheAHgzMos';
 
 export const AppContextProvider = ({ children }: IChildren) => {
-  const [lang, setLang] = useState('cs');
-  const [isLoading, setIsLoading]: [boolean, (loading: boolean) => void] =
-    useState<boolean>(false);
-  const [error, setError] = useState(null);
+  const [lang, setLang] = useState<string>('cs');
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<IResponseData[]>([]);
-  const [showModal, setShowModal] = useState(false);
-  const [detail, setDetail] = useState({});
-  const [apikey, setApikey] = useState('');
-  // const [district, setDistrict] = useState('');
+  const [showModal, setShowModal] = useState<boolean>(false);
+  const [detail, setDetail] = useState<IResponseData>({});
+  const [apikey, setApikey] = useState<string>('');
 
+  // nastaveni jazyka
   const chooseLangHandler = (lang: string) => {
     setLang(lang);
   };
 
+  // vyhodnocení api klíče a volba serveru
   let url: string;
   let token: string;
 
@@ -95,6 +93,7 @@ export const AppContextProvider = ({ children }: IChildren) => {
     token = publicToken;
   }
 
+  // získání dat ze serveru
   const getDataHandler = useCallback(async () => {
     setIsLoading(true);
     setError(null);
@@ -121,8 +120,9 @@ export const AppContextProvider = ({ children }: IChildren) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [apikey]);
 
+  // funkce k modal elementu
   const hideModalHandler = () => {
-    setShowModal(false);
+    setShowModal(!showModal);
   };
 
   const scrollToTop = () => {
@@ -134,10 +134,11 @@ export const AppContextProvider = ({ children }: IChildren) => {
 
   const showModalHandler = (index: number) => {
     setDetail(data[index]);
-    setShowModal(true);
+    setShowModal(!showModal);
     scrollToTop();
   };
 
+  // provider a value
   return (
     <AppContext.Provider
       value={{
@@ -152,7 +153,6 @@ export const AppContextProvider = ({ children }: IChildren) => {
         showModal: showModalHandler,
         setApikey: setApikey,
         apikey: apikey,
-        // district: data[0].properties.district,
       }}
     >
       {children}

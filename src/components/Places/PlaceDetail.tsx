@@ -42,7 +42,10 @@ const PlaceDetail: FC = () => {
       </div>
       <div className={styles.link}>
         <a href={`mailto:${email}`}>
-          {email && email.length > 30 ? email.substring(0, 30) + '...' : email}
+          {/*zkrácená verze emailu*/}
+          {email && email.length > 30
+            ? email.substring(0, 27) + '...'
+            : email}{' '}
         </a>
       </div>
       {tel && (

@@ -27,6 +27,7 @@ const ApiForm: FC = () => {
         ref={apiInputRef}
         style={styles.input}
         label={lang === 'en' ? 'Api Key' : 'Api klíč'}
+        link='https://api.golemio.cz/api-keys/'
         input={{
           placeholder: `${
             lang === 'en' ? 'Insert your Api Key' : 'Vložte svůj Api klíč'

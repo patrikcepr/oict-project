@@ -7,7 +7,12 @@ interface IProps {
   children?: React.ReactNode;
 }
 
-const Button: React.FC<IProps> = ({ type, style, onClick, children }) => {
+const Button: React.FC<IProps> = ({
+  type,
+  style,
+  onClick,
+  children,
+}): JSX.Element => {
   return (
     <button type={type} className={style} onClick={onClick}>
       {children}

@@ -7,17 +7,26 @@ interface IInput {
 }
 
 interface Props {
-  label: string;
-  input: IInput;
   style: string | undefined;
+  label: string;
+  link?: string;
+  input: IInput;
   ref: MutableRefObject<HTMLInputElement>;
 }
 
 const Input = forwardRef<HTMLInputElement, Props>(
-  ({ label, input, style }, ref): JSX.Element => {
+  ({ style, label, input, link }, ref): JSX.Element => {
     return (
       <div className={style}>
-        <label htmlFor={input.id}>{label}</label>
+        <label htmlFor={input.id}>
+          <a
+            href='https://api.golemio.cz/api-keys/'
+            target='_blank'
+            rel='noreferrer noopener'
+          >
+            {label}
+          </a>
+        </label>
         <input
           ref={ref}
           placeholder={input.placeholder}

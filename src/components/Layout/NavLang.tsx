@@ -1,10 +1,10 @@
-import React, { useContext } from 'react';
+import React, { FC, useContext } from 'react';
 
 import AppContext from '../../store/appContext';
 
 import styles from './NavLang.module.sass';
 
-const NavLang = () => {
+const NavLang: FC = () => {
   const ctx = useContext(AppContext);
 
   const { lang, onChooseLang } = ctx;

@@ -16,12 +16,16 @@ function App() {
 
   const { isLoading, data, error, lang, showModalState } = ctx;
 
+  // error catching a logika obsahu
+  // loader
   let content = <Loader />;
 
+  // obsah je list položek z api
   if (!isLoading && data.length > 0) {
     content = <Places />;
   }
 
+  // data nebyla přijata
   if (!isLoading && data.length === 0 && !error) {
     content = (
       <div className='error'>
@@ -30,6 +34,7 @@ function App() {
     );
   }
 
+  // server nahlásil chybu
   if (error) {
     if (error === 'Request failed with status code 401') {
       content = (
@@ -55,12 +60,12 @@ function App() {
       <Header />
       <Nav />
       <main>
-        {content}
         {showModalState && (
           <Modal>
             <PlaceDetail />
           </Modal>
         )}
+        {content}
       </main>
       <Footer />
     </div>
