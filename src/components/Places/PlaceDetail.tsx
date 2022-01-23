@@ -13,19 +13,24 @@ const PlaceDetail: FC = () => {
   const address = detail.properties.address.address_formatted;
   const email = detail.properties.email[0];
   // zkrácení příliš dlouhého emailu
-  const emailHeader =
+  const email_look =
     email && email.length > 30 ? email.substring(0, 28) + '...' : email;
   let tel = detail.properties.telephone[0];
   // kontrola a úprava tel čísla
   tel = tel && tel.substring(0, 4) === '+420' ? tel.slice(4) : tel;
+  // sjednocení vzhledu a funkčnosti
+  tel = tel && tel.replaceAll(/\s/g, '');
+  const tel_look =
+    tel && `${tel.slice(0, 3)} ${tel.slice(3, 6)} ${tel.slice(6, 9)}`;
   const type = detail.properties.type.description;
   let web = detail.properties.web[0];
-  // kontrola a uprava web adresy
+  // kontrola a úprava web adresy
   web =
     web && web.substring(0, 7) === 'http://' ? 'https://' + web.slice(7) : web;
   web = web && web.substring(0, 8) !== 'https://' ? 'https://' + web : web;
+  let web_look = web && web.slice(8);
   const openingHours = detail.properties.opening_hours;
-  // unikátní hodnoty pro případ zdvojených
+  // unikátní hodnoty v array pro případ zdvojených
   const uniqueDays = openingHours.filter(
     (v, i, a) => a.findIndex((t) => t.day_of_week === v.day_of_week) === i
   );
@@ -51,15 +56,15 @@ const PlaceDetail: FC = () => {
       <p>{address}</p>
       <div className={styles.link}>
         <a href={`${web}`} target='_blank' rel='noreferrer'>
-          {web}
+          {web_look}
         </a>
       </div>
       <div className={styles.link}>
-        <a href={`mailto:${email}`}>{emailHeader}</a>
+        <a href={`mailto:${email}`}>{email_look}</a>
       </div>
       {tel && (
         <div className={styles.link}>
-          <a href={`tel:+420 ${tel}`}>+420 {tel}</a>
+          <a href={`tel:+420${tel}`}>+420 {tel_look}</a>
         </div>
       )}
       {timeTable.length > 0 && (
