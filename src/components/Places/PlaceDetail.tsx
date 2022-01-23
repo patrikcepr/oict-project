@@ -14,16 +14,23 @@ const PlaceDetail: FC = () => {
   const email = detail.properties.email[0];
   // zkrácení příliš dlouhého emailu
   const emailHeader =
-    email && email.length > 30 ? email.substring(0, 27) + '...' : email;
+    email && email.length > 30 ? email.substring(0, 28) + '...' : email;
   let tel = detail.properties.telephone[0];
   // kontrola a úprava tel čísla
   tel = tel && tel.substring(0, 4) === '+420' ? tel.slice(4) : tel;
   const type = detail.properties.type.description;
   let web = detail.properties.web[0];
-  // kontrola emailu
-  web = web && web.substring(0, 7) !== 'http://' ? 'https://' + web : web;
+  // kontrola a uprava web adresy
+  web =
+    web && web.substring(0, 7) === 'http://' ? 'https://' + web.slice(7) : web;
+  web = web && web.substring(0, 8) !== 'https://' ? 'https://' + web : web;
   const openingHours = detail.properties.opening_hours;
-  const timeTable = openingHours.map((day) => {
+  // unikátní hodnoty pro případ zdvojených
+  const uniqueDays = openingHours.filter(
+    (v, i, a) => a.findIndex((t) => t.day_of_week === v.day_of_week) === i
+  );
+  // vygenerování otevíracích hodin
+  const timeTable = uniqueDays.map((day) => {
     return (
       <div className={styles.day} key={day.day_of_week}>
         <div className={styles['day-name']}>{day.day_of_week}</div>
