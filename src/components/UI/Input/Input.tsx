@@ -19,11 +19,7 @@ const Input = forwardRef<HTMLInputElement, Props>(
     return (
       <div className={style}>
         <label htmlFor={input.id}>
-          <a
-            href='https://api.golemio.cz/api-keys/'
-            target='_blank'
-            rel='noreferrer noopener'
-          >
+          <a href={link} target='_blank' rel='noreferrer noopener'>
             {label}
           </a>
         </label>

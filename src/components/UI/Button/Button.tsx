@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface IProps {
+import { IChildren } from '../../../store/appContext';
+interface IProps extends IChildren {
   type?: 'button' | 'submit' | 'reset' | undefined;
   style: string | undefined;
   onClick?: () => void;
-  children?: React.ReactNode;
 }
 
 const Button: React.FC<IProps> = ({

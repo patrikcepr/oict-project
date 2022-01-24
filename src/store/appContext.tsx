@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { createContext, useState, useCallback, useEffect } from 'react';
 
 export interface IChildren {
-  children?: JSX.Element;
+  children?: React.ReactNode;
 }
 
 interface IProperties {

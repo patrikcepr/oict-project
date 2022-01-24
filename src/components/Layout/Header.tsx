@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+
 import AppContext from '../../store/appContext';
 
 import styles from './Header.module.sass';
